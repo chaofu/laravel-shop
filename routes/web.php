@@ -10,8 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'PagesController@root')->name('root');
+Route::get('/', 'PagesController@root')->name('root')->middleware('verified');
 
-Auth::routes();
+// 启用与邮箱验证相关的路由  'verify' => true
+Auth::routes(['verify' => true]);
 
 
