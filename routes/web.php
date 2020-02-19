@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'PagesController@root')->name('root')->middleware('verified');
+//Route::get('/', 'PagesController@root')->name('root')->middleware('verified');
 
 // 启用与邮箱验证相关的路由  'verify' => true
 Auth::routes(['verify' => true]);
@@ -24,4 +24,8 @@ Route::group(['middleware'=>['auth','verified']], function(){
     Route::get('user_addresses/{user_address}', 'UserAddressesController@edit')->name('user_addresses.edit');
     Route::put('user_addresses/{user_address}', 'UserAddressesController@update')->name('user_addresses.update');
     Route::delete('user_addresses/{user_address}', 'UserAddressesController@destroy')->name('user_addresses.destroy');
+
 });
+
+Route::redirect('/', '/products')->name('root');
+Route::get('products', 'ProductsController@index')->name('products.index');
