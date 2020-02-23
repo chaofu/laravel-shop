@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +185,10 @@
       <workItem from="1581907862865" duration="2480000" />
       <workItem from="1581992772839" duration="72000" />
       <workItem from="1582008233587" duration="1940000" />
-      <workItem from="1582097700935" duration="5781000" />
+      <workItem from="1582097700935" duration="7947000" />
+      <workItem from="1582165188563" duration="257000" />
+      <workItem from="1582165668322" duration="1114000" />
+      <workItem from="1582430111632" duration="5274000" />
     </task>
     <servers />
   </component>
