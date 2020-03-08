@@ -15,6 +15,17 @@ use App\Jobs\CloseOrder;
 class OrdersController extends Controller
 {
 
+    public function index(Request $request)
+    {
+        $orders = Order::query()
+            // 使用 with 方法预加载，避免N + 1问题
+            ->with(['items.product', 'items.productSku'])
+            ->where('user_id', $request->user()->id)
+            ->orderBy('created_at', 'desc')
+            ->paginate();
+
+        return view('orders.index', ['orders' => $orders]);
+    }
     // 保存 訂單  前台会提交数据过来
     public function store(OrderRequest $request)
     {
