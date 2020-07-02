@@ -77,6 +77,9 @@
                         </form>
                     </div>
                     <!-- 结束 -->
+                    <div class="product_total">
+
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="41d5c93f-fd8b-402b-8a16-c96dbeb768de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/OrdersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/orders/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/orders/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +208,17 @@
       <workItem from="1584278629347" duration="2092000" />
       <workItem from="1584321636663" duration="3050000" />
       <workItem from="1584409195448" duration="102000" />
-      <workItem from="1584429907028" duration="3806000" />
+      <workItem from="1584429907028" duration="4296000" />
+      <workItem from="1584494407266" duration="1028000" />
+      <workItem from="1584957057343" duration="969000" />
+      <workItem from="1585006398284" duration="3093000" />
+      <workItem from="1585100872434" duration="644000" />
+      <workItem from="1585446952254" duration="1621000" />
+      <workItem from="1585532380392" duration="23000" />
+      <workItem from="1587996949984" duration="2364000" />
+      <workItem from="1588036512765" duration="676000" />
+      <workItem from="1593653627988" duration="2865000" />
+      <workItem from="1593678131374" duration="1747000" />
     </task>
     <servers />
   </component>
@@ -234,6 +245,11 @@
           <url>file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/cart/index.blade.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
